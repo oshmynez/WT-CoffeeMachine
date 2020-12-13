@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee-MachineService</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+<header class="headerContainer">
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Coffee</button>
+    </div>
+
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Заказы</button>
+    </div>
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Выход</button>
+    </div>
+    <div class="language">
+        <label>
+            <select>
+                <option value="1">ru</option>
+                <option value="2">en</option>
+            </select>
+        </label>
+    </div>
+
+</header>
+<div class="container" >
+    <h1>Orders</h1>
+    <form method="post">
+        <table>
+            <tr>
+                <td class="nameField">
+
+                </td>
+                <td class="nameField">
+                    TypeCoffee
+                </td>
+                <td class="nameField">
+                    TypeBeans
+                </td>
+                <td class="nameField">
+                    Addities
+                </td>
+                <td class="nameField">
+                    Status
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <label type="submit" class="buttonSubmit" name >Sed</label>
+                </td>
+                <td>
+                        <input type="text" name="typeCoffee" >
+                </td>
+                <td>
+                        <input type="text" name="typeBeans" >
+                </td>
+                <td>
+                        <input type="text" name="addities" >
+                </td>
+                <td>
+                        <button type="submit" class="buttonSubmit" name="check">not done</button>
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../jsfiles/buttonOrder.js"></script>
+
+</body>
+</html>
+

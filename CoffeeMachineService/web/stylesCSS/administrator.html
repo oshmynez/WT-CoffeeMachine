@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="administrator.css">
+</head>
+<body>
+<header class="headerContainer">
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Coffee</button>
+    </div>
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Профиль</button>
+    </div>
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Заказы</button>
+    </div>
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Выход</button>
+    </div>
+    <div class="language">
+        <label>
+            <select>
+                <option value="1">ru</option>
+                <option value="2">en</option>
+            </select>
+        </label>
+    </div>
+
+</header>
+<div class="container" >
+    <h1>Orders</h1>
+    <form method="post">
+        <table>
+            <tr>
+                <td class="nameField">
+
+                </td>
+                <td class="nameField">
+                    TypeCoffee
+                </td>
+                <td class="nameField">
+                    TypeBeans
+                </td>
+                <td class="nameField">
+                    Addities
+                </td>
+                <td class="nameField">
+                    Status
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <label>
+                        <button type="submit" class="buttonSubmit" name="check" >Send</button>
+                    </label>
+                </td>
+                <td>
+                    <label>
+                        <input type="text" name="typeCoffee" >
+                    </label>
+                </td>
+                <td>
+                    <label>
+                        <input type="text" name="typeBeans" >
+                    </label>
+                </td>
+                <td>
+                    <label>
+                        <input type="text" name="addities" >
+                    </label>
+                </td>
+                <td>
+                    <label>
+                        <button type="submit" class="buttonSubmit" name="check">not done</button>
+                    </label>
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../jsfiles/buttonOrder.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,86 @@
+html {
+    background: url(https://images.wallpaperscraft.ru/image/kofe_chashka_minimalizm_espresso_120299_1920x1080.jpg) no-repeat center center fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+}
+.profileItem{
+    color: white;
+    margin: auto 1% auto 5%;
+    padding: 2px;
+    font-size: 29px;
+    font-family: cursive;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.profile{
+    font-size: 26px;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.headerContainer{
+    background: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.language{
+    margin-top: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+.login-button{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(3, 3, 3, 0.8);
+    overflow: hidden;
+    opacity: 0.8;
+    box-shadow: 10px 10px 30px #000;
+}
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #000;
+}
+
+.login-button:hover{
+    background: rgba(3, 3, 3, 1);
+    opacity: .4;
+}

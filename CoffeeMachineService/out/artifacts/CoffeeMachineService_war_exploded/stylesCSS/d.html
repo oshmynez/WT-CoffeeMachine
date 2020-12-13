@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Custom Select Menu</title>
+    <link rel="stylesheet" href="orderCoffee.css">
+</head>
+<body>
+<header class="headerContainer">
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Coffee</button>
+    </div>
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Профиль</button>
+    </div>
+    <div class="profileItem">
+        <button class="profile" onclick="location.href=''" >Заказы</button>
+    </div>
+    <div class="language">
+            <select id="language">
+                <option value="1">ru</option>
+                <option value="2">en</option>
+            </select>
+    </div>
+</header>
+<div style="text-align: center;"><h1>Make your Coffee</h1></div>
+<div id="Types" >
+<div style="text-align: center;">
+    <select id="TypeCoffee">
+    <option value="1">Американо</option>
+    <option value="2">Эспрессо</option>
+    <option value="3">Латте</option>
+    <option value="4">Раф</option>
+    <option value="5">Фраппе</option>
+    <option value="6">Маккиато</option>
+    <option value="7">Лунго</option>
+    <option value="8">Романо</option>
+</select>
+
+    <select id="CoffeeBeans">
+        <option value="hide">--Зёрна--</option>
+        <option value="1">Арабика</option>
+        <option value="2">Робуста</option>
+        <option value="3">Либерика</option>
+        <option value="4">Эксцельза</option>
+    </select>
+    <select id="Addities">
+        <option value="hide">--Добавки--</option>
+        <option value="1">Апельсиновый сироп</option>
+        <option value="2">Яблочный сироп</option>
+        <option value="3">Малиновый сироп</option>
+        <option value="4">Корица сироп</option>
+        <option value="5">Ваниль сироп</option>
+        <option value="6">Миндальный сироп</option>
+        <option value="7">Кедровый сироп</option>
+        <option value="8">Лесной орех сироп</option>
+        <option value="9">Шоколадный сироп</option>
+        <option value="10">Тирамису сироп</option>
+        <option value="11">Пломбирный сироп</option>
+        <option value="12">Виски</option>
+        <option value="13">Молоко</option>
+        <option value="14">Сливки</option>
+        <option value="15">Сахар</option>
+        <option value="16">Без добавки</option>
+    </select>
+</div>
+</div>
+<div style="text-align: center;">
+    <button class="addOrder" type="submit" >
+        Добавить
+    </button>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../jsfiles/buttonOrder.js"></script>
+
+</body>
+</html>
